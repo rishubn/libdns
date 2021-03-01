@@ -11,7 +11,7 @@ import (
 type Provider struct {
 	// Token is required for authorization.
 	// You can generate one at: https://dynv6.com/keys
-	Token string
+	Token string `json:"token,omitempty"`
 }
 
 // GetRecords lists all the records in the zone.
