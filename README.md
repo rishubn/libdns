@@ -1,4 +1,5 @@
 # dynv6 DNS for `libdns`
+Developed by @sstamoulis, now maintained by @rishubn
 
 This package implements the libdns interfaces for the [dynv6 DNS Update API](https://dynv6.com/docs/apis#dns-update).
 
